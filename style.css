@@ -1,0 +1,43 @@
+table {
+  font-family: Calibri;
+  margin-top: 10px;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+.heading > td {
+  background: gold;
+  line-height: 30px;
+  width: 150px;
+  text-align: center;
+}
+
+.heading > td:nth-of-type(2) {
+  background: goldenrod;
+}
+
+table,
+td {
+  border: 2px solid gold;
+  border-collapse: collapse;
+  background-color: rebeccapurple;
+}
+
+.data > td {
+  color: white;
+  padding: 10px;
+}
+
+button {
+  width: 150px;
+  margin-right: 4px;
+  margin-top: 5px;
+}
+
+input {
+  width: 145px;
+}

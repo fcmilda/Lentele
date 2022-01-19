@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentelė</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    <form>
+        <input type="text" name="vardas" placeholder="vardas">
+        <input type="text" name="pavarde" placeholder="pavardė">
+        <input type="number" name="amzius" placeholder="amžius" min="1";>
+        <br>
+        <button id="prideti">Pridėti</button>
+        <button id="istrinti-1">Ištrinti pirmą</button>
+        <button id="istrinti-2">Ištrinti paskutinį</button>
+    </form>
+
+    <table>
+        <tr class="heading">
+                <td>vardas</td>
+                <td>pavardė</td>
+                <td>amžius</td>
+        </tr>
+        
+        <tr class="data">
+            <td>Jonas</td>
+            <td>Rimkus</td>
+            <td>54</td>
+        </tr>
+
+        <tr class="data">
+            <td>Vestina</td>
+            <td>Petronytė</td>
+            <td>31</td>
+        </tr>
+
+        <tr class="data">
+            <td>Marius</td>
+            <td>Dulinskas</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
